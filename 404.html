@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>코인 대시보드로 이동</title>
+<meta name="robots" content="noindex">
+<script>
+  // /btc-cycle-dashboard/<경로>?<쿼리> → /coin-dashboard/<경로>?<쿼리>
+  location.replace(location.pathname.replace(/^\/btc-cycle-dashboard/, '/coin-dashboard') + location.search + location.hash);
+</script>
+<style>body{margin:0;padding:24px 16px;font:14px/1.5 system-ui,sans-serif;background:#f9f9f7;color:#0b0b0b}
+@media (prefers-color-scheme: dark){body{background:#0d0d0d;color:#f0efec}}a{color:inherit}</style>
+</head>
+<body>
+<p>이 대시보드는 <a href="https://ocho011.github.io/coin-dashboard/">ocho011.github.io/coin-dashboard</a>로 옮겼습니다.</p>
+</body>
+</html>
